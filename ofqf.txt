@@ -1,0 +1,19 @@
+RWN-CTXDW01     rwn-ex0602esxc18.whsnv.net
+RWN-CTXDW02     rwn-ex0602esxc22.whsnv.net
+RWN-CTXDW03     rwn-ex0602esxc12.whsnv.net
+RWN-CTXDW14     rwn-ex0602esxc15.whsnv.net
+
+esxtop -b -a -d 15 -n 60 | gzip -9c > /tmp/esxtop.csv.gz (preset with 15m capture)
+
+VMs NOT exhibiting issue:
+RWN-CTXDW09   rwn-ex0602esxc21.whsnv.net
+RWN-CTXDW10   rwn-ex0602esxc16.whsnv.net
+RWN-CTXDW11   rwn-ex0602esxc22.whsnv.net
+
+esxtop -b -a -d 15 -n 60 | gzip -9c > /tmp/esxtop.csv.gz (preset with 15m capture)
+
+
+$_.config.GuestFullName
+
+
+RWN_EX0506RBKA_REP_LTR_01 
